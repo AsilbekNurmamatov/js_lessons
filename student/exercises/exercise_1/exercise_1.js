@@ -142,7 +142,9 @@ function divideBy() {
     num2 = document.getElementById("secondNumber").value;
     document.getElementById("result").innerHTML = num1 / num2;
 }
-//    11-exercise
+
+
+/////////////    11-exercise
 
 function cToF(celsius) {
     var cTemp = celsius;
@@ -159,12 +161,14 @@ function fToC(fahrenheit) {
 }
 cToF(60);
 fToC(45);
-//    12-exercise
 
+
+///////////////    12-exercise
 
 console.log(document.URL);
-//    13-exercise
 
+
+//////////////    13-exercise
 
 var var_name = 'abcd';
 var n = 120;
@@ -173,14 +177,15 @@ console.log(this[var_name])
 
 
 
-//    14-exercise
+//////////////    14-exercise
 
 filename = "system.html"
 console.log(filename.split('s').pop());
 filename = "abc.js"
 console.log(filename.split('.').pop());
-//    15-exercise
 
+
+//////////////    15-exercise
 
 function difference(n) {
     if (n <= 13)
@@ -192,9 +197,7 @@ console.log(difference(32));
 console.log(difference(11));
 
 
-
-//    16-exercise
-
+//////////////    16-exercise
 
 function sumTriple(x, y) {
     if (x == y) {
@@ -207,8 +210,7 @@ console.log(sumTriple(10, 20));
 console.log(sumTriple(10, 10));
 
 
-
-//    17-exercise
+//////////////    17-exercise
 
 function diff_num(n) {
     if (n <= 19) {
@@ -223,8 +225,7 @@ console.log(diff_num(19));
 console.log(diff_num(22));
 
 
-//    18-exercise
-
+//////////////    18-exercise
 
 function test50(x, y) {
     return ((x == 50 || y == 50) || (x + y == 50));
@@ -237,10 +238,7 @@ console.log(test50(20, 30));
 console.log("...................................");
 
 
-
-
-//    19-exercise
-
+///////////////    19-exercise
 
 function testhundred(x) {
     return ((Math.abs(100 - x) <= 20) ||
@@ -256,9 +254,7 @@ console.log(testhundred(200));
 console.log("...................................");
 
 
-//    20-exercise
-
-
+//////////////    20-exercise
 
 function positive_negative(x, y) {
     if ((x < 0 && y > 0) || x > 0 && y < 0) {
