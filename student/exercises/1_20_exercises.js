@@ -26,6 +26,7 @@ if (hour === 0 && prepand === ' AM ') {
     }
 }
 console.log("Current Time : " + hour + prepand + " : " + minute + " : " + second);
+
 // 2-exercise
 
 function print_page() {
