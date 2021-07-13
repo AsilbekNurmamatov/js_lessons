@@ -1,0 +1,163 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+
+
+    <button onclick="window.print()">Print this page</button>
+    <p id="dem"></p>
+
+    <script>
+        var carName = "Volvo";
+        document.getElementById("dem").innerHTML = carName;
+    </script>
+
+    <script src="/student/lessons_examples/app.js"></script>
+    <script>
+        window.alert(5 + 6);
+
+        alert(5 + 6);
+
+        console.log(5 + 6);
+
+        document.getElementById("demo").innerHTML = "Hello Dolly.";
+
+        let person = "Hege";
+
+        let x = y + z;
+
+        document.getElementById("demo").innerHTML = "Hello Dolly!";
+
+        function myFunction() {
+            document.getElementById("demo1").innerHTML = "Hello Dolly!";
+            document.getElementById("demo2").innerHTML = "How are you?";
+        }
+
+        "John Doe"
+
+        'John Doe'
+
+
+        let x;
+        x = 6;
+
+
+
+
+        // variable yaratilishi:
+        var x;
+        let y;
+
+        // variable dan foydalanish :
+        x = 5;
+        y = 6;
+        let z = x + y;
+
+
+
+        var x, y;
+        x = 5 + 6;
+        y = x * 10;
+
+
+
+        var x = 5;
+        var y = 6;
+        var z = x + y;
+
+
+
+
+
+
+        var person = "John Doe",
+            carName = "Volvo",
+            price = 200;
+
+
+        var x = 2; // Allowed
+        let x = 3; // Not allowed
+
+        {
+            let x = 2; // Allowed
+            let x = 3 // Not allowed
+        }
+
+        {
+            let x = 2; // Allowed
+            var x = 3 // Not allowed
+        }
+
+
+
+
+
+        var x = 2; // Allowed
+        const x = 2; // Not allowed
+
+        {
+            let x = 2; // Allowed
+            const x = 2; // Not allowed
+        }
+
+        {
+            const x = 2; // Allowed
+            const x = 2; // Not allowed
+        }
+
+
+
+
+
+
+        const x = 2; // Allowed
+        x = 2; // Not allowed
+        var x = 2; // Not allowed
+        let x = 2; // Not allowed
+        const x = 2; // Not allowed
+
+        {
+            const x = 2; // Allowed
+            x = 2; // Not allowed
+            var x = 2; // Not allowed
+            let x = 2; // Not allowed
+            const x = 2; // Not allowed
+        }
+
+
+
+        let z = Math.pow(x, 2); // result is 25
+
+
+
+        let length = 16; // Number
+        let lastName = "Johnson"; // String
+        let x = {
+            firstName: "John",
+            lastName: "Doe"
+        }; // Object
+
+
+
+        let x; // Now x is undefined
+        x = 5; // Now x is a Number
+        x = "John"; // Now x is a String
+
+
+        const person = {
+            firstName: "John",
+            lastName: "Doe",
+            age: 50,
+            eyeColor: "blue"
+        };
+    </script>
+</body>
+
+</html>
