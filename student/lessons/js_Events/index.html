@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+
+    <element event="some JavaScript"></element>
+
+    <element event='some JavaScript'></element>
+    <p id="demo"></p>
+
+
+    <button onclick="document.getElementById('demo').innerHTML = Date()">The time is?</button>
+    <button onclick="this.innerHTML = Date()">The time is?</button>
+
+    <button onclick="displayDate()">The time is?</button>
+    <script>
+        let text = "ABCDEFGHIJKLMNOPQRSTUVWXYZ";
+        text.length; // Will return 26
+
+
+
+        let textt = "We a\'re the so-called \"Vikings\" from/\\/\\ the north.";
+        console.log(textt);
+
+
+
+
+
+
+        // slice(start, end)
+        // substring(start, end)
+        // substr(start, length)
+
+
+
+        let str = "Apple, Banana, Kiwi";
+        console.log(str.slice(7, 13));
+        console.log(str.slice(-12, -6));
+        console.log(str.slice(7));
+        console.log(str.slice(-12));
+        console.log(str.substring(7, 13));
+        console.log(str.substr(7, 6));
+        console.log(str.substr(7));
+        console.log(str.substr(-4));
+
+        let next = "Please visit Microsoft!";
+
+        console.log(next.replace("Microsoft", "W3Schools"));
+
+
+        let bug = "Please visit Microsoft and Microsoft!";
+        let newText = bug.replace("MICROSOFT", "W3Schools");
+        console.log(bug.replace("MICROSOFT", "W3Schools"));
+
+
+
+        let text1 = "Hello World!"; // String
+        let text2 = text1.toUpperCase();
+        console.log(text2);
+    </script>
+</body>
+
+</html>
